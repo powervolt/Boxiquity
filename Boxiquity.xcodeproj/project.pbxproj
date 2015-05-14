@@ -19,8 +19,8 @@
 		AC2355041AFD547300BA0F3E /* ImageCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2355031AFD547300BA0F3E /* ImageCollectionViewController.m */; };
 		AC2355221AFD836400BA0F3E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AC2355201AFD836400BA0F3E /* CollectionViewCell.m */; };
 		AC2355231AFD836400BA0F3E /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC2355211AFD836400BA0F3E /* CollectionViewCell.xib */; };
-		ACB9C17C1AFDAF6100EF52E1 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB9C17B1AFDAF6100EF52E1 /* UIImage+Extention.m */; };
-		ACB9C17F1AFDD04D00EF52E1 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB9C17E1AFDD04D00EF52E1 /* ShowImageViewController.m */; };
+		AC29CCD11B0507B1000019B4 /* UIImage+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29CCD01B0507B1000019B4 /* UIImage+Extention.m */; };
+		AC29CCD41B0507C5000019B4 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC29CCD31B0507C5000019B4 /* ShowImageViewController.m */; };
 		ACC3A0671AFE7D0F00309E93 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC3A0661AFE7D0F00309E93 /* AssetsLibrary.framework */; };
 		ACC3A0691AFE7D1900309E93 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACC3A0681AFE7D1900309E93 /* ImageIO.framework */; };
 		ACC3A0721AFEA13E00309E93 /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC3A0711AFEA13E00309E93 /* loading.png */; };
@@ -58,10 +58,10 @@
 		AC23551F1AFD836400BA0F3E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
 		AC2355201AFD836400BA0F3E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
 		AC2355211AFD836400BA0F3E /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
-		ACB9C17A1AFDAF6100EF52E1 /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extention.h"; path = "../../../../../BB026503/Documents/iOS-Projects/Boxiquity/Boxiquity/UIImage+Extention.h"; sourceTree = "<group>"; };
-		ACB9C17B1AFDAF6100EF52E1 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extention.m"; path = "../../../../../BB026503/Documents/iOS-Projects/Boxiquity/Boxiquity/UIImage+Extention.m"; sourceTree = "<group>"; };
-		ACB9C17D1AFDD04D00EF52E1 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowImageViewController.h; path = "../../../../../BB026503/Documents/iOS-Projects/Boxiquity/Boxiquity/ShowImageViewController.h"; sourceTree = "<group>"; };
-		ACB9C17E1AFDD04D00EF52E1 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowImageViewController.m; path = "../../../../../BB026503/Documents/iOS-Projects/Boxiquity/Boxiquity/ShowImageViewController.m"; sourceTree = "<group>"; };
+		AC29CCCF1B0507B1000019B4 /* UIImage+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extention.h"; path = "Common/UIImage+Extention.h"; sourceTree = "<group>"; };
+		AC29CCD01B0507B1000019B4 /* UIImage+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extention.m"; path = "Common/UIImage+Extention.m"; sourceTree = "<group>"; };
+		AC29CCD21B0507C5000019B4 /* ShowImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h;  path = ShowImageViewController.h; sourceTree = "<group>"; };
+		AC29CCD31B0507C5000019B4 /* ShowImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
 		ACC3A0661AFE7D0F00309E93 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		ACC3A0681AFE7D1900309E93 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		ACC3A0711AFEA13E00309E93 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
@@ -171,8 +171,6 @@
 				AC23551E1AFD834B00BA0F3E /* CollectionCell */,
 				AC2355021AFD547300BA0F3E /* ImageCollectionViewController.h */,
 				AC2355031AFD547300BA0F3E /* ImageCollectionViewController.m */,
-				ACB9C17D1AFDD04D00EF52E1 /* ShowImageViewController.h */,
-				ACB9C17E1AFDD04D00EF52E1 /* ShowImageViewController.m */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -193,6 +191,8 @@
 			children = (
 				AC23551F1AFD836400BA0F3E /* CollectionViewCell.h */,
 				AC2355201AFD836400BA0F3E /* CollectionViewCell.m */,
+				AC29CCD21B0507C5000019B4 /* ShowImageViewController.h */,
+				AC29CCD31B0507C5000019B4 /* ShowImageViewController.m */,
 			);
 			name = CollectionCell;
 			sourceTree = "<group>";
@@ -200,8 +200,8 @@
 		ACB9C1761AFDAF0500EF52E1 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				ACB9C17A1AFDAF6100EF52E1 /* UIImage+Extention.h */,
-				ACB9C17B1AFDAF6100EF52E1 /* UIImage+Extention.m */,
+				AC29CCCF1B0507B1000019B4 /* UIImage+Extention.h */,
+				AC29CCD01B0507B1000019B4 /* UIImage+Extention.m */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -308,12 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB9C17C1AFDAF6100EF52E1 /* UIImage+Extention.m in Sources */,
 				AC2355041AFD547300BA0F3E /* ImageCollectionViewController.m in Sources */,
 				AC2355221AFD836400BA0F3E /* CollectionViewCell.m in Sources */,
 				AC2354AD1AFD498800BA0F3E /* AppDelegate.m in Sources */,
-				ACB9C17F1AFDD04D00EF52E1 /* ShowImageViewController.m in Sources */,
+				AC29CCD11B0507B1000019B4 /* UIImage+Extention.m in Sources */,
 				AC2354AA1AFD498800BA0F3E /* main.m in Sources */,
+				AC29CCD41B0507C5000019B4 /* ShowImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
